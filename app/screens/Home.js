@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { View, StatusBar } from 'react-native';
+import { View, Text, StatusBar } from 'react-native';
 
 import { Container } from '../components/Container';
 import { Register } from '../components/Register';
@@ -10,7 +10,7 @@ import { Login } from '../components/Login';
 
 export default () => (
     <Container>
-        <StatusBar translucent={false} barStyle="light-content" />
+        <StatusBar translucent={false} barStyle="dark-content" />
         <View />
         <Router>
             <Stack key="root">
